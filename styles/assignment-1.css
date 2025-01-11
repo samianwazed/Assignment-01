@@ -44,7 +44,12 @@ html{
     color: #006A50;
     border-color: #006A50;
     border-radius: 8px;
+    cursor: pointer;
 }
+.sign-in:hover{
+    background-color:#027216;
+    transition: 0.7s;}
+
 .banner-bd{
     display: flex;
     justify-content: space-evenly;
