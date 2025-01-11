@@ -22,6 +22,7 @@ html{
     border-radius: 8px;
     padding: 11px 20px;
     border-style: none;
+    cursor: pointer;
 }
 /* Header Section: 1st Task */
 .bd{
@@ -160,14 +161,17 @@ html{
 .v-btn-1{
     color: #FFFFFF;
     background-color: #5490F5;
+    cursor: pointer;
 }
 .v-btn-2{
     color: #FFFFFF;
     background-color: #09A15C;
+    cursor: pointer;
 }
 .v-btn-3{
     color: #FFFFFF;
     background-color: #FFC239;
+    cursor: pointer;
 }
 .card-no-1{
     background-color: rgba(84, 144, 245, 0.2);
@@ -264,7 +268,11 @@ html{
     border-radius: 8px;
     border-style: none;
     margin-top: 32px;
+    cursor: pointer;
 }
+.btn-sec:hover {
+    background-color:#5dc46c;
+    transition: 0.7s;}
 .innovation-3{
     display: flex;
     gap: 32px;
@@ -272,4 +280,130 @@ html{
     background-color: #FFFFFF;
     margin-top: 24px;
     border-radius: 24px;
+}
+/* Donation Section */
+.donation{
+    width: 80%;
+    margin: 0px auto;
+}
+.donate-text{
+    text-align: center;
+}
+.donate-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 80px;
+}
+.donate-subtitle{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.donate-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.common-donate-box{
+    color: rgba(14, 14, 14, 0.8);
+    font-size:40px;
+    padding: 40px;
+    border-radius: 18px;
+    background-color: #FFFFFF; 
+    border-style: none;
+}
+.donate-box-2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.common-donate-box:hover {
+    background-color:#7bd397;
+    transition: 0.7s;
+}
+.donate-now{
+    text-align: center;
+}
+.input-donation{
+    font-size: 20px;
+    padding: 20px 422px;
+    border-style: none;
+    
+}
+/* Footer Section */
+footer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 50px;
+    border:0 none;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+}
+.subscribe-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.subscribe-subtitle{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.input-subscribe{
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    width: 80%;
+    text-align: center;
+    margin:0 auto;
+}
+.input-email{
+    flex: 1;
+      border-right: none;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+    padding: 18px 40px;
+    border-style: none;
+    
+}
+.subscribe-button{
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18;
+    font-weight: 600;
+    border-radius: 0 5px 5px 0;
+      cursor: pointer;
+      border-style: none;
+}
+.subscribe-button:hover{
+    background-color:#5dc46c;
+    transition: 0.7s;
+}
+.promise{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+}
+.BD2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bangladesh2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 130px;
+    margin-bottom: 64px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
 }
