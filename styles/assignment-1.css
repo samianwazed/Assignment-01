@@ -1,0 +1,84 @@
+.work-sans-fira {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Common Section */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header Section: 1st Task */
+.bd{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 0 160px;
+}
+.bd2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+
+}
+.sign-in{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #006A50;
+    border-color: #006A50;
+    border-radius: 8px;
+}
+.banner-bd{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px 160px;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+}
+.banner-text{
+    padding: 117px 64px;
+}
+.banner-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner-title{
+    color: #0E0E0E;
+    font-size:56px ;
+    font-weight: bold ;
+    margin-top: 16px;
+}
+.explore-bd{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.banner-img{
+    padding: 80px 60px 80px 0px;
+}
+
+/* main Section: 2nd Task */
+.vision{
+    width: 80%;
+    margin: 80px 160px;
+    align-items: center;
+}
+.vision-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.vision-subtitle{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
