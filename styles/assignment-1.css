@@ -265,3 +265,11 @@ html{
     border-style: none;
     margin-top: 32px;
 }
+.innovation-3{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: #FFFFFF;
+    margin-top: 24px;
+    border-radius: 24px;
+}
