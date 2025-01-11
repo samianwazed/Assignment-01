@@ -65,6 +65,44 @@
     padding: 80px 60px 80px 0px;
 }
 
+/* Pillar of BD section */
+.pillars-of-bd{
+    width: 80%;
+    margin: 80px 160px ;
+}
+.pillars-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.pillar-cards{
+    display: flex;
+    gap: 24px;
+
+    justify-content: space-around;
+
+}
+.card-icon{
+    height: 64px;
+    width: 64px;
+
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.card-subtitle{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+.cards-cls{
+    border-radius: 16px;
+    background-color: #eae8e8;
+    stroke: rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
 /* main Section: 2nd Task */
 .vision{
     width: 80%;
@@ -82,3 +120,4 @@
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 32px;
 }
+/* Card Section */
